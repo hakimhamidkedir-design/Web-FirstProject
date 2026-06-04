@@ -1,0 +1,550 @@
+ *{ 
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size:16px;
+}
+img{
+    max-width:100%;
+}
+.header-wrapper{
+    background-color:rgb(44, 44, 44);
+    font-weight:200;
+    font-size:0.8em;
+}
+.header-wrapper ul{
+    display:flex;
+    list-style-type:none;
+    padding:0.5em 0.5em;
+    -webkit-box-pack:justify;
+    justify-content:space-between;
+}
+.internal-wrapper{
+    width:980px;
+    padding:0 10px;
+    margin:0 auto;
+}
+.header-wrapper .header-links-wrapper ul li a{
+    text-decoration: none;
+    color:white;
+}
+.header-wrapper .header-links-wrapper ul li{
+    display:inline-block;
+    padding:14px 0 8px;
+    height:25px;
+    opacity:0.8;
+}
+.logo-wrapper, .cart-logo, .search-logo{
+    display:block;
+    width:18px;
+    
+}
+.header-wrapper .header-links-wrapper ul li:hover{
+    opacity:1;
+}
+.header-wrapper .header-links-wrapper ul li .logo-wrapper{
+    padding:12px 0 12px;
+}
+.header-wrapper .header-links-wrapper ul li .search-logo{
+    padding:14px 0 8px;
+}
+.header-wrapper .header-links-wrapper ul li .cart-logo{
+    padding:12px 0 12px;
+}
+.footer-wrapper{
+    background-color:rgb(207, 207, 207);
+    font-size:0.8em;
+    padding: 17px 180px 17px 180px;
+}
+.upper-text-container{
+    border-bottom:1px solid rgb(43, 43, 43);
+    color:rgb(92, 92, 92);
+    padding-bottom:17px;
+    
+}
+.upper-text-container a{
+   text-decoration: none;
+   color:rgb(0, 0, 0);
+}
+.upper-text-container a:hover{
+    text-decoration:underline;
+}
+.footer-links{
+    display:flex;
+    -webkit-box-pack:justify;
+    justify-content:space-between;
+    padding-top:17px;
+}
+.footer-links .links-wrapper-1 ul, .footer-links .links-wrapper-2 ul, .footer-links .links-wrapper-3 ul, .footer-links .links-wrapper-4 ul, .footer-links .links-wrapper-5 ul{
+    list-style-type:none;
+}
+.footer-links a{
+    text-decoration: none;
+    color:rgb(106, 106, 106);
+}
+.footer-links a:hover{
+    text-decoration:underline;
+}
+.footer-links-wrapper h3{
+    font-size:12px;
+    font-weight:600;
+}
+.myapple-wrapper{
+    border-bottom:1px solid rgb(43, 43, 43);
+    padding-bottom:17px;
+    margin-bottom:17px;
+}
+.copyright-wrapper{
+    display:flex;
+    -webkit-box-pack:justify;
+    justify-content:space-between;
+    padding:10px 0 20px;
+}
+.footer-link-terms ul li{
+    display:inline-block;
+    padding:0px 5px;
+    border-right:1px solid rgb(43, 43, 43);
+}
+.footer-link-terms ul li:last-child{
+    border-right:0px;
+}
+.footer-link-terms ul li a{
+    text-decoration: none;
+    color:rgb(121, 121, 121);
+}
+.footer-link-terms ul li a:hover{
+    text-decoration:underline;
+}
+.footer-link-country{
+    color:rgb(122, 122, 122);
+}
+.flag-wrapper{
+    display:inline-block;
+    vertical-align:middle;
+}
+.country-name{
+    display:inline-block;
+    vertical-align:top;
+}
+.mac-model{
+    font-size:0.85em;
+}
+.body-wrapper{
+    background-color:#fafafa;
+    padding:25px 0;
+    text-align:center;
+}
+.mac-links ul li{
+    display:inline-block;
+    padding:0 10px;
+}
+.Mac-Prod-title{
+    font-weight:700;
+    font-size:56px;
+}
+.mac-links ul li a{
+    text-decoration: none;
+    color:rgb(52, 167, 220);
+}
+.mac-links ul li a:hover{
+    color:rgb(102, 14, 145);
+    text-decoration:underline;
+}
+.mac-links ul li a:after{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f101";
+    padding-left: 10px;
+}
+.IPhone-section{
+    background-image:url("../Images/home/iphone11-pro-bg.jpg");
+    height:400px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:65px 20px;
+    color:#fff;
+}
+.IPhone-section .iphone-model{
+    font-size:56px;
+    font-weight:600;
+}
+.iphone-links ul li{
+    display:inline-block;
+    padding:0 10px;
+}
+.iphone-links ul li a{
+    text-decoration: none;
+    color:rgb(52, 167, 220);
+}
+.iphone-links ul li a:hover{
+    color:rgb(102, 14, 145);
+    text-decoration:underline;
+}
+.iphone-links ul li a:after{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f101";
+    padding-left: 10px;
+}
+.iphone-price{
+    font-size:1em;
+    color:rgb(75, 75, 75);
+}
+.IPhone-section-2{ background-image:url("../Images/home/iphone11-bg.jpg");
+    height:400px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:65px 20px;
+    color:#0e0d0d;
+}
+.iphone-model-2{
+    font-size:56px;
+    font-weight:600;
+}
+.iphone-links-2 ul li{
+    display:inline-block;
+    padding:0 10px;
+}
+.iphone-links-2 ul li a{
+    text-decoration: none;
+    color:rgb(52, 167, 220);
+}
+.iphone-links-2 ul li a:hover{
+    color:rgb(102, 14, 145);
+    text-decoration:underline;
+}
+.iphone-links-2 ul li a:after{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f101";
+    padding-left: 10px;
+}
+.iphone-price-2{
+    font-size:1em;
+    color:rgb(159, 159, 159);
+}
+
+.fourth-highlight-section {
+    display: flex;
+    gap: 12px;
+    padding: 0 12px;
+    margin: 12px 0;
+    background-color: #ffffff;
+}
+
+.left-side-wrapper, 
+.right-side-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    background-color: #fbfbfd;
+    padding: 55px 20px 0 20px;
+    height: 540px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.fourth-highlight-section .top-logo-wrapper {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-highlight-section .top-logo-wrapper .logo-wrapper {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-highlight-section .top-logo-wrapper .logo-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.description-wrapper {
+    font-size: 17px;
+    line-height: 1.35;
+    color: #1d1d1f;
+    max-width: 320px;
+    margin: 8px auto 12px auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.links-wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 18px;
+}
+
+.links-wrapper ul li a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.links-wrapper ul li a:hover {
+    text-decoration: underline;
+}
+.links-wrapper ul li a:after{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f101";
+    padding-left: 10px;
+}
+
+.watch-background,
+.card-background {
+    margin-top: auto;
+    width: 100%;
+    max-height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.watch-background img,
+.card-background img {
+    max-width: 100%;
+    max-height: 330px;
+    object-fit: contain;
+    display: block;
+}
+
+.fifth-highlight-wrapper {
+    display: flex;
+    gap: 12px;
+    padding: 0 12px;
+    margin: 12px 0;
+    background-color: #ffffff;
+}
+
+.fifth-highlight-wrapper .left-side-wrapper, 
+.fifth-highlight-wrapper .right-side-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    height: 540px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.fifth-highlight-wrapper .left-side-wrapper {
+    background-color: #fafafa;
+    padding: 55px 20px 40px 20px;
+    justify-content: space-between;
+}
+
+.fifth-highlight-wrapper .left-side-wrapper .top-logo-wrapper,
+.tvshow-logo-wrapper,
+.watch-more-wrapper {
+    z-index: 2;
+}
+
+.fifth-highlight-wrapper .left-side-wrapper .top-logo-wrapper .logo-wrapper {
+    width: 65px;
+    margin: 0 auto;
+}
+
+.fifth-highlight-wrapper .left-side-wrapper .top-logo-wrapper .logo-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.tvshow-logo-wrapper {
+    width: 180px;
+    margin: auto auto 8px auto;
+}
+
+.tvshow-logo-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.watch-more-wrapper a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.movie-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.fifth-highlight-wrapper .right-side-wrapper {
+    background-color: #000000;
+    padding: 55px 20px 0 20px;
+}
+
+.top-title {
+    font-size: 38px;
+    font-weight: 600;
+    color: #f5f5f7;
+    letter-spacing: -0.5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin-bottom: 4px;
+}
+
+.fifth-highlight-wrapper .right-side-wrapper .description-wrapper {
+    font-size: 17px;
+    line-height: 1.35;
+    color: #86868b;
+    max-width: 320px;
+    margin: 4px auto 12px auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.fifth-highlight-wrapper .links-wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    gap: 18px;
+}
+
+.fifth-highlight-wrapper .links-wrapper ul li a {
+    color: #2997ff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.watch-more-wrapper a:hover,
+.fifth-highlight-wrapper .links-wrapper ul li a:hover {
+    text-decoration: underline;
+}
+
+.airpod-background {
+    margin-top: auto;
+    width: 100%;
+    max-height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.airpod-background img {
+    max-width: 100%;
+    max-height: 310px;
+    object-fit: contain;
+    display: block;
+}
+
+.sixth-highlight-wrapper {
+    display: flex;
+    gap: 12px;
+    padding: 0 12px;
+    margin: 12px 0;
+    background-color: #ffffff;
+}
+
+.sixth-highlight-wrapper .left-side-wrapper, 
+.sixth-highlight-wrapper .right-side-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    background-color: #fbfbfd;
+    padding: 55px 20px 0 20px;
+    height: 540px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.model {
+    color: #e30000;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.product-title-small {
+    font-size: 38px;
+    font-weight: 600;
+    color: #1d1d1f;
+    letter-spacing: -0.5px;
+    margin-bottom: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.sixth-highlight-wrapper .right-side-wrapper .top-logo-wrapper .logo-wrapper {
+    width: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth-highlight-wrapper .right-side-wrapper .top-logo-wrapper .logo-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.sixth-highlight-wrapper .description-wrapper {
+    font-size: 17px;
+    line-height: 1.35;
+    color: #1d1d1f;
+    max-width: 320px;
+    margin: 4px auto 12px auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.sixth-highlight-wrapper .links-wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 18px;
+}
+
+.sixth-highlight-wrapper .links-wrapper ul li a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.sixth-highlight-wrapper .links-wrapper ul li a:hover {
+    text-decoration: underline;
+}
+
+.mac-image,
+.ipad-img {
+    margin-top: auto;
+    max-width: 100%;
+    max-height: 320px;
+    object-fit: contain;
+    display: block;
+}
